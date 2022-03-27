@@ -3,7 +3,30 @@ body {
     flex-direction: column;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.right-links {
+
+}
+
 .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.image-text {
     display: flex;
 }
 
