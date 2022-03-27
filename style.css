@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #d3d3d3;
+    font-size: small;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
