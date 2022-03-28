@@ -1,12 +1,10 @@
 body {
     margin: 0;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
 }
 
-
-
+/* Hero container houses the header and website introduction */
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -15,6 +13,7 @@ body {
     flex-shrink: 0;
 }
 
+/* Houseing for logo and links */
 .header {
     font-size: 24px;
     color: #F9FAF8;
@@ -25,8 +24,10 @@ body {
 
 .logo {
     padding: 20px;
+    margin-left: 40px;
 }
 
+/* Styled and removed bullets from list */
 .right-links {
     list-style-type: none;
     margin: 0;
@@ -35,11 +36,13 @@ body {
     gap: 20px;
 }
 
+/* Removed the underlines and changed colour of links */
 .right-links a {
     color: lightgrey;
     text-decoration: none;
 }
 
+/* Website intro container for image and text */
 .intro {
     display: flex;
     justify-content: center;
@@ -50,6 +53,7 @@ body {
     gap: 40px;
 }
 
+/* Set up intro card so it would distort when page is shrunken */
 .intro-card {
     display: flex-start;
     flex-direction: column;
@@ -57,10 +61,12 @@ body {
     flex-shrink: 0;
 }
 
+/* Set image size */
 .intro img {
     max-width: 550px;
 }
 
+/* Styled title */
 .intro-title {
     font-size: 48px;
     font-weight: 800;
@@ -68,12 +74,14 @@ body {
     padding-bottom: 20px;
 }
 
+/* Styling for text */
 .intro-text {
     font-size: 18px;
     color: #e5e7eb;
     padding-bottom: 20px;
 }
 
+/* Styling for all buttons on landing page */
 .sign-up {
     color: white;
     background-color: #3882F6;
@@ -100,6 +108,7 @@ body {
     padding: 30px;
 }
 
+/* Container for image and explanation underneath */
 .image-text {
     display: flex;
     flex-direction: row;
@@ -110,12 +119,14 @@ body {
     flex-shrink: 0;
 }
 
+/* Made the info cards have a uniform size */
 .card {
     display: flex;
     flex-direction: column;
     max-width: 200px;
 }
 
+/* Set image size to follow card size and rounded edges*/
 .card img {
     max-width: 100%;
     max-height: 100%;
@@ -123,11 +134,13 @@ body {
     border-radius: 30px;
 }
 
+/* Centered text underneath image */
 .text {
     text-align: center;
     padding-top: 20px;
 }
 
+/* Container for quote */
 .quote {
     background-color: #E5E7EB ;
     display: flex;
@@ -135,6 +148,7 @@ body {
     padding: 75px;
 }
 
+/* Parent card holds the quote-text and name */
 .quote-card {
     display: flex;
     flex-direction: column;
