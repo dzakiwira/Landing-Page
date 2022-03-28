@@ -33,6 +33,31 @@ body {
     display: flex;
 }
 
+.quote {
+    background-color: #E5E7EB ;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-name {
+    align-self: flex-end;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .footer {
     background-color: #1F2937;
     color: #d3d3d3;
