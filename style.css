@@ -46,26 +46,39 @@ body {
     margin-top: 70px;
     margin-left: 70px;
     margin-right: 70px;
+    align-items: center;
+    gap: 40px;
 }
 
-/* .intro-card {
+.intro-card {
+    display: flex-start;
+    flex-direction: column;
+    max-width: 350px;
+}
 
-} */
+.intro img {
+    max-width: 550px;
+}
 
 .intro-title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    padding-bottom: 20px;
 }
 
 .intro-text {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 20px;
 }
 
 .sign-up {
     color: white;
     background-color: #3882F6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
 }
 
 .info {
